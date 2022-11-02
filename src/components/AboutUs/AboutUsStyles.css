@@ -1,0 +1,67 @@
+.about__container {
+    margin: 4rem 6rem;
+    text-align: center;
+}
+
+.about__container h1 {
+    padding-bottom: 1rem;
+}
+
+.about__container p {
+    padding-bottom: 2rem;
+}
+
+.about__list {
+    list-style: none;
+}
+
+.about__item {
+    display: flex;
+    font-size: 1.3rem;
+}
+
+.about__item i {
+    padding: 5px 10px 0 0;
+}
+
+.about__item-work {
+    text-align: start;
+    margin-bottom: 2.5rem;
+}
+
+.about__item-work p {
+    padding-bottom: 1rem;
+}
+
+.about__work-block {
+    display: flex;
+}
+
+.about__work-heading {
+    font-size: 1.2rem;
+    margin-right: 5px;
+}
+
+.about__work-item,
+.about__edu-heading {
+    font-size: 1.2rem;
+}
+
+.about__edu-title {
+    font-size: 1.4rem;
+}
+
+.about__item-edu {
+    text-align: start;
+    margin-bottom: 2rem;
+}
+
+.about__item-edu p {
+padding-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 850px){
+    .about__container {
+        margin: 4rem 2rem;
+    }
+}
